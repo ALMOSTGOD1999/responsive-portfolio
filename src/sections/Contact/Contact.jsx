@@ -46,7 +46,7 @@ const Contact = () => {
             />
           </div>
           <div className={styles.formGroup}>
-            <label className="text-col">Email : </label>
+            <label>Email : </label>
             <input
               type="email"
               name="email"

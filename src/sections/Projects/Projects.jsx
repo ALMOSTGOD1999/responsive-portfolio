@@ -1,9 +1,9 @@
-import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
-import ProjectCard from '../../common/ProjectCard';
+import styles from "./ProjectsStyles.module.css";
+import m from "../../assets/m.png";
+import cosmos from "../../assets/cosmos.webp";
+import gtc from "../../assets/gtc.png";
+import pf from "../../assets/pf.png";
+import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
   return (
@@ -11,28 +11,32 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          src={gtc}
+          link="https://grave-the-crave.vercel.app/"
+          h3="Grave the Crave"
+          p="Grave the Crave is a web app that says a lot about the bakery and the items of it."
+          github="https://github.com/ALMOSTGOD1999/grave-the-crave"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={cosmos}
+          link=""
+          h3="COSMOS RedSHIFT"
+          p="COSMOS RedSHIFT is a physics tutorial app, made with Next.JS and react."
+          github="https://github.com/Ade-mir/company-landing-page-2"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          src={m}
+          link="https://appwriteblog-kappa-gules.vercel.app/"
+          h3="Mesopoptemia"
+          p="Mesopotemia is a blog app build on next.js and react, and used appwrite."
+          github="https://github.com/ALMOSTGOD1999/MegaBlogAppwrite"
         />
         <ProjectCard
-          src={fitLift}
+          src={pf}
           link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
+          h3="Portfolio "
+          p="Portfolio made with next JS and tailwind CSS."
+          github="https://github.com/ALMOSTGOD1999/next-js-portfolio"
         />
       </div>
     </section>

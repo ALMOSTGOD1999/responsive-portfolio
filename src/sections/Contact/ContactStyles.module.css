@@ -10,6 +10,12 @@ form {
   gap: 30px;
 }
 
+.formGroup {
+
+  color:rgb(68, 77, 249);
+  font-size: larger;
+}
+
 textarea,
 input:not([type='submit']) {
   height: 50px;
